@@ -4,10 +4,44 @@ body {
   font-family: Arial, sans-serif;
 }
 
+#total
+{
+  background-image: url(background.jpg);
+}
 h1 {
   color: #2c3e50;
 }
 
 p {
   color: #555;
+}
+#mainbody{
+  padding: 5px;
+  background-color: white;
+  border: 1px;
+  width: 80%;
+
+}
+#header{
+            color: rgb(0, 247, 255);
+            background-color: #a8f0ef;
+}
+
+#friends{
+
+  background-color:#3fe0d0;
+  text-align: left;
+  border: 5px solid #078b8b;
+  padding: 5px;
+  width: 10%;
+ display: inline-block;
+}
+#entry
+{
+  border: #98d3d0;
+  text-align: left;
+width: 80%;
+  background-color: rgb(166, 207, 207);
+   display: inline-block;
+
 }
