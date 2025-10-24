@@ -8,40 +8,127 @@ body {
 {
   background-image: url(background.jpg);
 }
+
+
 h1 {
-  color: #2c3e50;
+  color: #8ce1e0; 
 }
 
 p {
   color: #555;
+  text-indent: 20px;
+  line-height: 1.4;
 }
+
+
+h2 {
+    color: #078b8b;
+}
+
 #mainbody{
   padding: 5px;
   background-color: white;
   border: 1px;
   width: 80%;
-
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
+
 #header{
-            color: rgb(0, 247, 255);
-            background-color: #a8f0ef;
+ 
+  background-color: #a8f0ef;
+  padding: 5px 10px; 
+}
+
+#container {
+  display: flex;
+  padding: 10px;
+  
 }
 
 #friends{
-
+  padding: 5px; 
   background-color:#3fe0d0;
   text-align: left;
   border: 5px solid #078b8b;
-  padding: 5px;
-  width: 10%;
- display: inline-block;
+  margin-right: 20px;
+  width: 25%;  
+  color: white; 
 }
-#entry
-{
-  border: #98d3d0;
-  text-align: left;
-width: 80%;
-  background-color: rgb(166, 207, 207);
-   display: inline-block;
 
+
+#friends a {
+    color: white;
+}
+
+
+.friends-spacer {
+  height: 150px; 
+  
+}
+
+#entry {
+
+  width: 75%; 
+  background-color: #e5f5f6; 
+  padding: 10px; 
+  
+
+}
+#entry h2 {
+    text-decoration: dashed;
+    text-align: left;
+}
+
+
+.entry-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+
+#entry img{
+  
+  margin-left: 20px; 
+  margin-top: 10px; 
+}
+
+
+#entry p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+#post {
+    background-color: #e5f5f6;
+    border: 1px solid #c3e1e3;
+    margin-left: 25%; 
+    padding: 10px;
+   
+}
+
+
+#post h2 {
+    text-align: left;
+}
+
+
+.post-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#post img {
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: white;
+}
+
+
+#post p {
+    margin: 0;
+    
 }
